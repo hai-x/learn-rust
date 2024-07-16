@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "cp target/release/libnapi.dylib target/release/libnapi.node && node test.js"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "ffi-napi": "^4.0.3"
+  }
+}

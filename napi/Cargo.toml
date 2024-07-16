@@ -1,0 +1,1 @@
+workspace = { members = [ "napi","napi-sys"] }
